@@ -1,0 +1,34 @@
+.MainPage-block-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: black;
+  width: 250px;
+  height: 95vh;
+}
+
+.MainPage-block-nav li {
+  margin: 0 0 10px 50px;
+  color: white;
+}
+
+.MainPage-block-nav p {
+  margin: 0;
+  padding-left: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.MainPage-block-location {
+  margin-left: 15px;
+}
+
+.MainPage-block-flex {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
